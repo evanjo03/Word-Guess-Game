@@ -123,7 +123,6 @@ document.onkeyup = function (event) {
             }
 
         }
-        console.log("here we go");
         alreadyGuessed.innerHTML = wrongGuesses.join(" ");
         visualArray.innerHTML = correctGuesses.join(' ');
         guessesRemainingText.innerHTML = "You have " + guessesRemaining + " guesses remaining.";
